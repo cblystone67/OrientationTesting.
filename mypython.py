@@ -62,3 +62,6 @@ def spiral(len, angle):
 spiral(75, 45)
 move(150)
 spiral(100, 90)
+
+turtle.mainloop()
+number = [1, 2, 3, 4, 5]
