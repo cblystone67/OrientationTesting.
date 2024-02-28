@@ -1,13 +1,7 @@
 # Christopher Blystone
 # Collect two words from the user and use them in a poem
-fword = input("Please give me a plural noun: ")
-sword = input("Please give me a adjective: ")
 
-
-def poem(first, second):
-    first = first.title()
-    second = second.lower()
-    print(first, "are red, violets are blue Monty Python is", second, "woo hoo!")
-
-
-poem(fword, sword)
+noun = input("Please give me a plural noun: ")
+adj = input("Please give me a adjective: ")
+print(noun.capitalize(), "are red, violets are blue")
+print("Monty Python is", adj.lower() + ", woo hoo!")
