@@ -33,10 +33,9 @@ def hey(number):
 
 
 def there(n):
-    if (n >= 0):
-        return 2 ** n
-    else:
+    if (n < 0):
         return 0
+    return n ** 2
 
 
 # Problem 8). Write a function are_we that takes a number of times to repeat a phrase to be repeated as a parameter and outputs the following for the give calls.
