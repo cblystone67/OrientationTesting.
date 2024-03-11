@@ -1,0 +1,6 @@
+Hello World
+I am testing a file read and write function
+March 10th, 2024
+
+Now appending something to this file
+Now appending something to this file
