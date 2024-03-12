@@ -13,6 +13,7 @@ for line in open(file):
     # Gets the count of letter if it exists, 0 otherwise
     count = counts.get(letter, 0)
     counts[letter] = count + 1  # store count
+
 # print out counts
 for l in letters:
     print(l + ":", counts.get(l, 0))
